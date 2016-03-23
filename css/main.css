@@ -130,13 +130,63 @@ footer p a{
 	border-radius:50%
 }
 
+
+@media screen and (max-width: 1023px) {
+.features p{
+	display:none;
+}
+@media screen and (max-width: 730px) {
+header h2{
+	font-size:20px;
+}
+@media screen and (max-width: 720px) {
+.item h4{
+	font-size:15px;
+}
+.item{
+	width:16%;
+}
+@media screen and (max-width: 643px){
+.features{
+	display:none;
+}
 @media screen and (max-width: 640px) {
 	.item{
 		width:50%;
 		margin:0 auto;
 		display: block;
 	}
-
+@media screen and (max-width: 598px){
+footer h3,p{
+	display:none;
+}
+.socialIcons{
+	display:none;
+}
+@media screen and (max-width: 458px){
+nav ul li a{
+	margin-right:10px;
+}
+@media screen and (max-width: 412px){
+header h1{
+	font-size:25px;
+}
+header h2{
+	font-size:15px;
+}
+@media screen and (max-width: 383px){
+nav ul{
+	padding-right:0px;
+}
+@media screen and (max-width: 349px){
+nav ul{
+	display:none;
+}
+nav .logo{
+	text-align:center;
+	float:none;
+	padding-left:0px;
+}
 
 
 
